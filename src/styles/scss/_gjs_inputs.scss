@@ -66,6 +66,10 @@
       &:focus {
         outline: none;
       }
+
+      &::placeholder {
+        color: $mainLhlColor;
+      }
     }
 
     &-range {

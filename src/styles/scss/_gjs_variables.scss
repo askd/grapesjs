@@ -19,15 +19,24 @@ $trt-prefix:        $app-prefix + 'trt-' !default;
   With this should be easier to overwrite colors
   not only in SCSS but even CSS
 */
-$primaryColor:      #444 !default;
-$secondaryColor:    #ddd !default;
-$tertiaryColor:     #804f7b !default;
-$quaternaryColor:   #d278c9 !default;
+// $primaryColor:      #444 !default;
+// $secondaryColor:    #ddd !default;
+// $tertiaryColor:     #804f7b !default;
+// $quaternaryColor:   #d278c9 !default;
+
+$primaryColor:      #037cd7 !default;
+$secondaryColor:    #fff !default;
+$tertiaryColor:     #000 !default;
+$quaternaryColor:   #000 !default;
 
 /* Dark theme */
-$mainColor:         #444 !default; /* Light: #573454 Dark: #3b2639 -moz-linear-gradient(top, #fca99b 0%, #6e2842 100%) */
-$fontColor:         #ddd !default; /* l: #d8d7db */
-$fontColorActive:   #f8f8f8 !default;
+// $mainColor:         #444 !default; /* Light: #573454 Dark: #3b2639 -moz-linear-gradient(top, #fca99b 0%, #6e2842 100%) */
+// $fontColor:         #ddd !default; /* l: #d8d7db */
+// $fontColorActive:   #f8f8f8 !default;
+
+$mainColor:         #037cd7 !default; /* Light: #573454 Dark: #3b2639 -moz-linear-gradient(top, #fca99b 0%, #6e2842 100%) */
+$fontColor:         #fff !default; /* l: #d8d7db */
+$fontColorActive:   #000 !default;
 
 $mainDkColor:       rgba(0, 0, 0, 0.2) !default;/* darken($mainColor, 4%) - #383838 */
 $mainDklColor:      rgba(0, 0, 0, 0.1) !default;

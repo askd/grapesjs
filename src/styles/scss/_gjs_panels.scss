@@ -19,7 +19,8 @@
     width: (100% - $leftWidth);
     left: 0;
     top: 0;
-    box-shadow: 0 0 5px $mainDkColor;
+    /* box-shadow: 0 0 5px $mainDkColor; */
+    box-shadow: 0 0 0 1px $mainDkColor;
   }
 
   &options {
@@ -39,34 +40,47 @@
       right: 0;
       width: $leftWidth;
       overflow: auto;
-      box-shadow: 0 0 5px $mainDkColor;
+      /* box-shadow: 0 0 5px $mainDkColor; */
+      box-shadow: 0 0 0 1px $mainDkColor;
     }
   }
 
   &buttons {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   &btn {
     box-sizing: border-box;
     min-height: 30px;
     min-width: 30px;
-    line-height: 21px;
+    line-height: 22px;
     background-color: transparent;
     border: none;
     font-size: 18px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
+    margin: 0 8px;
     border-radius: 2px;
     padding: 4px;
     position: relative;
     cursor: pointer;
 
     &.#{$pn-prefix}active {
-      background-color: rgba(0, 0, 0, 0.15);
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.25) inset;
+      background-color: $mainDkColor;
+      color: $secondaryColor;
+      /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.25) inset; */
+      /* color: $primaryColor;
+      background-color: $secondaryColor; */
     }
+
+    &:hover {
+      background-color: $mainDkColor;
+      /* color: $quaternaryColor; */
+    }
+    /* &.#{$pn-prefix}active:hover {
+      color: $primaryColor;
+    } */
 
     svg {
       fill: currentColor;
